@@ -9,6 +9,14 @@ public class Tester {
     System.out.println(a1.getBalance());
     System.out.println(a1.deposit(-1000));
     System.out.println(a1.getBalance());
+    System.out.println(a1.deposit(13.68));
+    System.out.println(a1.getBalance());
+    System.out.println(a1.withdraw(500));
+    System.out.println(a1.getBalance());
+    System.out.println(a1.withdraw(-500));
+    System.out.println(a1.getBalance());
+    System.out.println(a1.withdraw(18));
+    System.out.println(a1.getBalance());
   }
 
 }
