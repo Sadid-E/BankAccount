@@ -4,10 +4,21 @@ public class BankAccount {
   private int accountID;
   private String password;
 
-  public BankAccount(double b, int a, String p) {
-    b = balance;
-    a = accountID;
-    p = password;
+  public BankAccount(int a, String p) {
+    accountID = a;
+    password = p;
+  }
+
+  public double getBalance() {
+    return balance;
+  }
+
+  public int getAccountID() {
+    return accountID;
+  }
+
+  public void setPassword(String p) {
+    password = p;
   }
 
 }
